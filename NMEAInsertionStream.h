@@ -48,6 +48,8 @@ public:
 
     NMEAInsertionStream() = delete;
 
+    /// @todo delete copy and move
+
     NMEAInsertionStream(MutableBuffer& buffer, const char *talker, const char *msg);
 
     NMEAInsertionStream& operator<<(const FloatFormat& fmt);
