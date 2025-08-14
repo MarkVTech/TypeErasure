@@ -18,6 +18,8 @@ public:
 
     explicit NMEAExtractionStream(const ImmutableBuffer &nmeaMessage);
 
+    /// @todo delete copy and move
+
     std::string getTalker() const;
 
     std::string getMessage() const;
