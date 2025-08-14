@@ -7,6 +7,8 @@ class ImmutableBuffer
 public:
     ImmutableBuffer() = delete;
 
+    /// @todo delete copy and move
+
     ImmutableBuffer(const char* buffer, std::size_t size);
 
     const char *data() const;
