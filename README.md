@@ -1,1 +1,1 @@
-# TypeErasureSeries
+# TypeErasureExample
